@@ -40,6 +40,7 @@ rake db:pull
 * test
 * search feature
 * get more online website's data
+* IE compatible
 
 ## License
 
