@@ -10,7 +10,7 @@ just for God Food
 Install GodFood
 
 ``` Ruby
-git clone git@github.com:mouse-lin/god_food.git
+git clone git://github.com/mouse-lin/god_food.git
 cd god_food
 ```
 
