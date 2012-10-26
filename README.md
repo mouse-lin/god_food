@@ -32,8 +32,8 @@ rake db:pull
 
 ## Contributors	
 
-* mouseshi
-* blowdy
+* [mouseshi](https://github.com/mouse-lin)
+* [blowdy](https://github.com/Blowdy)
 
 ## Todo
 
