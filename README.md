@@ -38,6 +38,7 @@ rake db:pull
 ## Todo
 
 * test
+* search feature
 * get more online website's data
 
 ## License
