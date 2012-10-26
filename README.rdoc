@@ -1,43 +1,41 @@
-## Welcome to GodFood
+== Welcome to GodFood
  
   Hack take out contract from online website 
   
   just for God Food
 
-### Getting Starting
----
-Install GodFood
-	 
-	 git clone git@github.com:mouse-lin/god_food.git
 
-	 cd god_food
+== Getting Starting
 
-Config your database
+1. Install GodFood
 
-	mv config/database.xml.example config/database.yml
+		git clone git@github.com:mouse-lin/god_food.git
+
+  		cd god_food
+
+2. Config your database
+
+  		mv config/database.xml.example config/database.yml
 	
-	rake db:create
+		rake db:create
 	
-	rake db:migrate
+		rake db:migrate
 
-Get the Foods' online datas, run custom rake task
+3. Get the Foods' online datas, run custom rake task
 
-	rake db:pull
+		rake db:pull
 	
-### Contributors
----	
+== Contributors	
 
 * mouseshi
 * blowdy
 
-### Todo
----
+== Todo
 
 * test
 * get more online website's data
 
-### License
----
+== License
 
 Copyright (c) 2012 GodFood
 
