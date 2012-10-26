@@ -6,9 +6,6 @@
      | God Food
 div.container-fluid
   div.row-fluid
-    div.span3.well.handle-bar
-      iframe width="100%" height="300" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=300&fansRow=1&ptype=1&speed=0&skin=3&isTitle=1&noborder=1&isWeibo=0&isFans=1&uid=1914827877&verifier=00e07be0&dpc=1"
-      iframe width="100%" height="300" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=300&fansRow=1&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=1&isFans=1&uid=2100646627&verifier=ea02d6eb&dpc=1"
     div.span9.well.food-list
       table.table.table-bordered.table-striped
         thead
@@ -49,6 +46,11 @@ div.container-fluid
               td
                 =f.address
       =will_paginate @foods
+    div.span3.well.handle-bar
+      div.fix-block
+        iframe width="100%" height="300" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=300&fansRow=1&ptype=1&speed=0&skin=3&isTitle=1&noborder=1&isWeibo=0&isFans=1&uid=1914827877&verifier=00e07be0&dpc=1"
+        iframe width="100%" height="300" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=300&fansRow=1&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=1&isFans=1&uid=2100646627&verifier=ea02d6eb&dpc=1"
+
 a#forkme href="https://github.com/mouse-lin/god_food" target="_blank"
 footer
   center
