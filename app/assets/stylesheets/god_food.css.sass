@@ -1,0 +1,23 @@
+@import compass
+
+body
+  background: image-url("bckgi1.jpg")
+
+.well
+  background: #fff
+  @include border-radius(10px)
+  @include box-shadow(0px 2px 5px #333)
+
+.food-name, .shop-phone
+  width: 200px
+  height: 50px
+
+#forkme
+  position: absolute
+  top: 0
+  right: 0
+  background: image-url("fork.png") no-repeat top right
+  width: 200px
+  height: 200px
+  text-index: -9999
+

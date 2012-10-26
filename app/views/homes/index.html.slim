@@ -1,0 +1,53 @@
+.header
+  center
+    h3
+     | GodFood
+div.container-fluid
+  div.row-fluid
+    div.span3.well
+      mouse
+    div.span9.well
+      table.table.table-bordered.table-striped
+        thead
+          tr
+            th 
+              |序号
+            th
+              |菜单编号
+            th
+              |店名
+            th
+              |菜名
+            th
+              |单价
+            th
+              |类型
+            th
+              |电话
+            th
+              |地址
+        tbody
+          - @foods.each do |f|
+            tr
+              td 
+                =f.food_number
+              td
+                =f.number
+              td
+                =f.shop
+              td.food-name
+                =f.name
+              td
+                =f.price
+              td
+                =f.food_type
+              td.shop-phone
+                =f.phone
+              td
+                =f.address
+      =will_paginate @foods
+a#forkme href="https://github.com/mouse-lin/god_food" target="_blank"
+footer
+  center
+    p
+     |版权所有 © 2012 GodFood
