@@ -14,6 +14,7 @@ Install GodFood
 ``` Ruby
 git clone git://github.com/mouse-lin/god_food.git
 cd god_food
+bundle install
 ```
 
 Config your database
